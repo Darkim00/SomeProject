@@ -1,0 +1,78 @@
+@import "https://fonts.googleapis.com/css?family=Press%20Start%202P";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  display:flex;
+  font-family: 'Press Start 2P';
+  font-size: 1rem;
+  line-height: 2;
+  height: 100%;
+  background-color: #ded895;
+  background-image: url('FlappyBird/img/Background.png');
+  text-transform: uppercase;
+  background-repeat: repeat-x;
+  background-size: auto;
+  font-size: x-large;
+}
+
+#menu {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Press Start 2P';
+  font-size: 1rem;
+  line-height: 2;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+#ground{
+  background-image: url('FlappyBird/img/BG.png');
+  background-repeat: repeat-x;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 32%;
+}
+
+a {
+  text-decoration: none;
+  color: #ffcd90;
+  font-size: x-large;
+}
+
+li {
+  color: #4FAF44;
+}
+
+.arrow i {
+  display: none;
+}
+
+.arrow {
+  position:relative;
+	display: block;
+  color: #f67d14;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.arrow:hover i { 
+  display: block;
+  position: absolute;
+  top: 0.50em; 
+  left: -3em;
+}
+
+.arroww{
+  position:relative;
+	display: block;
+  color: #f67d14;
+}
