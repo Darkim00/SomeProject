@@ -1,1 +1,1 @@
-A project that I made for my school.
+A project that I made.
